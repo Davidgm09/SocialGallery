@@ -1,0 +1,57 @@
+body{
+
+	background-image: url("fondo.png");
+	background-position: center center;
+	background-repeat: no-repeat; 
+	font-family: Varela Round;
+	font-size: 20px
+	color: white;
+	background-size: cover;
+}
+
+
+img:hover{
+	transform:  scale(0.9);
+}
+
+img{
+	transition: all 0.7s ease;
+}
+
+
+div.gallery img {
+    
+    width: 350px; 
+    height: 200px;
+    border-radius: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h2{
+	color: white; 
+}
+
+h1{
+	color: white;
+	text-align: center;
+	font-size: 45px;
+}
+
+div.centrar {
+
+	display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+form{
+	color: white;
+	text-align: center;
+}
