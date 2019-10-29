@@ -6,9 +6,7 @@ body{
 	font-family: Varela Round;
 	font-size: 20px
 	color: white;
-	background-size: cover;
 }
-
 
 img:hover{
 	transform:  scale(0.9);
@@ -55,3 +53,5 @@ form{
 	color: white;
 	text-align: center;
 }
+
+
